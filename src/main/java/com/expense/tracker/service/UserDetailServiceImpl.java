@@ -1,7 +1,8 @@
-package com.expense.tracker.security;
+package com.expense.tracker.service;
 
 import com.expense.tracker.models.User;
 import com.expense.tracker.repository.UserRepository;
+import com.expense.tracker.security.UserDetailsImpl;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
